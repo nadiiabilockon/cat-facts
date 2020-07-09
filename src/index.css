@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button:focus {
+  outline: none;
+}
+
+.navbar {
+  background: #7d408c;
+}
+
+.navbar-light .navbar-text {
+  color: #ffe14d;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.gradient-border {
+  padding: 1rem;
+  box-sizing: border-box;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom right, #ffe23b, #7d408c, #2b86c5) 1
+    100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn--yellow {
+  background: #ffe14d;
+  color: #21234d;
+  padding: 1em 2em;
+  border-radius: 5em;
+  display: inline-block;
+  border: none;
+}
+
+.btn--yellow:hover {
+  background: #ffe14d;
+  color: #21234d;
+  -webkit-transform: scale3d(0.96, 0.96, 0.96);
+  transform: scale3d(0.96, 0.96, 0.96);
+}
+
+.logo {
+  max-width: 50px;
+}
+
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+  color: #7d408c;
 }
