@@ -1,5 +1,5 @@
 ## Cat Facts
-This is a simple app wich shows cat facts from [Cat Facts API](https://alexwohlbruck.github.io/cat-facts)
+This is a simple app which shows cat facts from [Cat Facts API](https://alexwohlbruck.github.io/cat-facts)
 
 ## Technologies
 * React
