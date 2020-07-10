@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
- import Navbar from "react-bootstrap/Navbar";
+import Navbar from "react-bootstrap/Navbar";
 import CatFactService from "./api/cat-fact-service";
 import { FactsList } from "./components/FactsList";
 import { FactInterface } from "./interfaces";

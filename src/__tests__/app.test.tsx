@@ -9,7 +9,7 @@ jest.mock('../api/cat-fact-service', () => ({
   })
 }));
 
-describe('call fetch facts function when bage load', () => {
+describe('call fetch facts function when page load', () => {
   it("fetch was called", () => {
 
     let catFactService = require('../api/cat-fact-service');
